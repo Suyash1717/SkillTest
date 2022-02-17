@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+<listeners>
+<listener class-name="utils.SuitListener"/>
+</listeners>
+  <test name="Test Basics 2">  
+   	<parameter name="ParameterNValue" value="TestCase=>2-2"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="inputsheet" value="input\\inputData.xls"/>
+  
+    <classes>
+       <class name="com.suyash.test.SampleTest"/>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite>

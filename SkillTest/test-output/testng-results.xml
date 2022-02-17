@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T04:08:28Z" name="Practice Suite" finished-at="2022-02-17T04:08:32Z" duration-ms="4541">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T04:08:28Z" name="Test Basics 2" finished-at="2022-02-17T04:08:32Z" duration-ms="4541">
+      <class name="com.suyash.test.SampleTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:com.suyash.test.SampleTest@37e547da]" started-at="2022-02-16T23:08:28Z" name="beforeTestMethod" finished-at="2022-02-16T23:08:28Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String, java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:com.suyash.test.SampleTest@37e547da]" started-at="2022-02-16T23:08:28Z" name="beforeMethodMethod" finished-at="2022-02-16T23:08:30Z" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.suyash.test.SampleTest.sampleMethodLogin()]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestCase=>2-2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input\\inputData.xls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="sampleMethodLogin()[pri:0, instance:com.suyash.test.SampleTest@37e547da]" started-at="2022-02-16T23:08:30Z" name="sampleMethodLogin" finished-at="2022-02-16T23:08:31Z" duration-ms="1596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethodLogin -->
+        <test-method is-config="true" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.suyash.test.SampleTest@37e547da]" started-at="2022-02-16T23:08:31Z" name="afterMethodMethod" finished-at="2022-02-16T23:08:32Z" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethodLogin status=SUCCESS method=SampleTest.sampleMethodLogin()[pri:0, instance:com.suyash.test.SampleTest@37e547da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:com.suyash.test.SampleTest@37e547da]" started-at="2022-02-16T23:08:32Z" name="afterTestMethod" finished-at="2022-02-16T23:08:32Z" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.suyash.test.SampleTest -->
+    </test> <!-- Test Basics 2 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.SuitListener"/>
+  </listeners>
+  <test name="Test Basics 2(failed)">
+    <parameter name="ParameterNValue" value="TestCase=&gt;2-2"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="inputsheet" value="input\\inputData.xls"/>
+    <classes>
+      <class name="com.suyash.test.SampleTest">
+        <methods>
+          <include name="beforeMethodMethod"/>
+          <include name="afterMethodMethod"/>
+          <include name="afterTestMethod"/>
+          <include name="sampleMethodLogin"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- com.suyash.test.SampleTest -->
+    </classes>
+  </test> <!-- Test Basics 2(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->
